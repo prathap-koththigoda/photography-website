@@ -1,33 +1,39 @@
 body{
 	margin: 0;
-	font-family: Helvetica , Arial , sans-serif; 
+	font-family: helvetica, Arial, sans-serif;
+	font-size: 20px;
+	line-height: 30px;
 }
+
+
 header{
-	background-color: #34495E;
+	background-color: darksalmon;
 	text-align: center;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
-h1, h2 {
-	font-family: 'Grandstander', cursive;
+h1,h2{
+	font-family: 'Baumans', cursive;
 }
 
+
 header h1{
-	color:black; 
+	color: blue;
 	font-size: 50px;
+
 }
 
 header img{
-	border-radius: 170px;
-	width: 300px;
-	border: 20px solid #7B7D7D;
+	    border-radius: 170px;
+    width: 300px;
+    border: 20px solid white;
 }
 
 main{
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 20px; 
 }
 
 main img{
@@ -36,32 +42,41 @@ main img{
 
 h2{
 	font-size: 30px;
-	color: #A04000;
+	color: red;
 	margin: 40px 0 10px;
 }
 
 a{
-	color:  #212F3D;
+	color: green;
 }
 
-a:hover{
-	background-color:  #212F3D;
+a:hover {
 	color: white;
+	background-color:  purple;
 }
 
 footer{
-	background-color: #34495E;
-	color: white;
+	background-color: darksalmon;
 	text-align: center;
-	padding: 30px;
+	color: white;
+	padding: 50px;
 }
 
 footer p{
 	margin: 0;
 }
 
+footer a{
+	color: white;
+}
+
+footer a:hover{
+	opacity: .5;
+	background-color: transparent;
+}
+
 p.caption{
-	color: #4D5656;
+	color: purple;
 	font-style: italic;
-	margin-top: 0;
+	margin: 0;
 }
